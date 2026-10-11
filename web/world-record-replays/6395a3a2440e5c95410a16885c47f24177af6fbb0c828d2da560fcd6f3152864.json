@@ -1,0 +1,140 @@
+{
+  "kind": "video-reconstruction",
+  "fighter": 5,
+  "holder": "MegaQwertification",
+  "source": "https://www.youtube.com/watch?v=ZuApYtH6bBg",
+  "frames": 484,
+  "time": "8.06",
+  "complete": true,
+  "practice": true,
+  "sha256": "6395a3a2440e5c95410a16885c47f24177af6fbb0c828d2da560fcd6f3152864",
+  "engine": "db93eadadc28cd34acafcfb1aaef898ed169d907c6f277851cadf118e4ade06f",
+  "verification": {
+    "deterministicPasses": 2,
+    "sourceDecoding": "Sequential decode with matching HUD clocks.",
+    "sourceTargetVideoFrames": [
+      227,
+      234,
+      264,
+      292,
+      354,
+      419,
+      458,
+      612,
+      663,
+      692
+    ],
+    "sourceTargetGameFrames": [
+      19,
+      26,
+      56,
+      84,
+      146,
+      211,
+      250,
+      404,
+      455,
+      484
+    ],
+    "reconstructedTargetTransitions": [
+      {
+        "frame": 142,
+        "gameFrame": 19,
+        "time": "0.31",
+        "remaining": 9
+      },
+      {
+        "frame": 149,
+        "gameFrame": 26,
+        "time": "0.43",
+        "remaining": 8
+      },
+      {
+        "frame": 179,
+        "gameFrame": 56,
+        "time": "0.93",
+        "remaining": 7
+      },
+      {
+        "frame": 207,
+        "gameFrame": 84,
+        "time": "1.40",
+        "remaining": 6
+      },
+      {
+        "frame": 269,
+        "gameFrame": 146,
+        "time": "2.43",
+        "remaining": 5
+      },
+      {
+        "frame": 334,
+        "gameFrame": 211,
+        "time": "3.52",
+        "remaining": 4
+      },
+      {
+        "frame": 373,
+        "gameFrame": 250,
+        "time": "4.16",
+        "remaining": 3
+      },
+      {
+        "frame": 527,
+        "gameFrame": 404,
+        "time": "6.73",
+        "remaining": 2
+      },
+      {
+        "frame": 578,
+        "gameFrame": 455,
+        "time": "7.58",
+        "remaining": 1
+      },
+      {
+        "frame": 607,
+        "gameFrame": 484,
+        "time": "8.06",
+        "remaining": 0
+      }
+    ],
+    "poseChecks": {
+      "nativeFrames": [
+        142,
+        149,
+        179,
+        207,
+        237,
+        239,
+        269,
+        334,
+        373,
+        391,
+        409,
+        442,
+        492,
+        503,
+        515,
+        520,
+        527,
+        578,
+        585,
+        595,
+        599,
+        603,
+        605,
+        607
+      ],
+      "sourceFrameOffset": 85,
+      "evidence": [
+        "bowser-comparison-0.jpg",
+        "bowser-comparison-1.jpg",
+        "bowser-comparison-2.jpg",
+        "bowser-comparison-3.jpg"
+      ],
+      "scope": "Sampled animation poses and stage-relative positions, not exhaustive every-frame identity."
+    },
+    "browserPlayback": "REPLAY CLEAR \u00b7 00:08.06;620/620frames;UCFoff;Practice;no page errors"
+  },
+  "limitations": "Video-inferred practice reconstruction, not an original replay or competitive evidence. All ten target clocks match the source. Sampled matching-clock poses do not prove identity on every frame; cosmetic flame and particle effects may differ."
+}
